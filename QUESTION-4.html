@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-4-ASSIGNMENT</title>
+    <h1>QUESTION-4</h1>
+</head>
+<body>
+    <script>
+        var operation=prompt("Enter the operation you want to do (+,-,*,/,%,sqrt)");
+        switch(operation){
+            case "+":
+                  var num1=Number(prompt("Enter the number1:"));
+                  var num2=Number(prompt("Enter the number2:"));
+                  result=num1+num2;
+                  console.log("The addition of two numbers is:",+result);
+                  break;
+            case "-":
+                  var num1=Number(prompt("Enter the number1:"));
+                  var num2=Number(prompt("Enter the number2:"));
+                  result=num1-num2;
+                  console.log("The addition of two numbers is:",+result);
+                  break;
+            case "/":
+                  var num1=Number(prompt("Enter the number1:"));
+                  var num2=Number(prompt("Enter the number2:"));
+                  result=num1/num2;
+                  console.log("The addition of two numbers is:",+result);
+                  break;
+            case "*":
+                  var num1=Number(prompt("Enter the number1:"));
+                  var num2=Number(prompt("Enter the number2:"));
+                  result=num1*num2;
+                  console.log("The addition of two numbers is:",+result);
+                  break;
+            case "%":
+                  var num1=Number(prompt("Enter the number1:"));
+                  var num2=Number(prompt("Enter the number2:"));
+                  result=num1%num2;
+                  console.log("The addition of two numbers is:",+result);
+                  break;
+            case "sqrt":
+                  var num1=Number(prompt("Enter the number1:"));
+                  result=Math.sqrt(num1);
+                  console.log("The addition of two numbers is:",+result);
+                  break;
+            default:
+                  console.log("Enter the valid operation");
+        }
+    </script>
+</body>
+</html>

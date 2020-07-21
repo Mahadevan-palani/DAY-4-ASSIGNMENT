@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-4-ASSIGNMENT</title>
+    <h1>QUESTION-5</h1>
+</head>
+<body>
+    <script>
+        var salesamount=prompt("Enter your sales amount:");
+        if(salesamount>0 && salesamount<=5000){
+             console.log("The total commission is "+salesamount*0.02);
+        }
+        else if(salesamount>5000 && salesamount<=10000){
+            console.log("The total commission is "+salesamount*0.05);
+        }
+        else if(salesamount>10000 && salesamount<=20000){
+            console.log("The total commission is "+salesamount*0.07);
+        }
+        else{
+            console.log("The total commission is "+salesamount*0.1);
+        }
+    </script>
+</body>
+</html>

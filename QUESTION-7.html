@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-4-ASSIGNMENT</title>
+    <h1>QUESTION-7</h1>
+</head>
+<body>
+    <script>
+        var n=prompt("Enter the number:");
+        for (var counter = 2; counter <= n; counter++) {
+            var notPrime = false;
+            for (var i = 2; i <= counter; i++) {
+                if (counter%i===0 && i!==counter) {
+                notPrime = true;
+                }
+            }
+            if (notPrime === false) {
+                console.log(counter);
+            }
+        }
+    </script>
+</body>
+</html>
